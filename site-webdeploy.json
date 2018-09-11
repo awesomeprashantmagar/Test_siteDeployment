@@ -1,0 +1,15 @@
+ {
+    "schemaVersion": "0.1",
+    "appId": "bitpod",
+    "instanceId": "B1ZiH_mdQ",
+    "siteId": "SJIAHd7dm",
+    "token": "ed26b187e845eb08c08f67304806eab24692f8467be2705517a62bd62247770d",
+    "deployPath": "/build",
+    "bitpodApiURL":"https://pd.bitpod.io/api",
+    "routes": [
+         {
+              "key": "*",
+              "value": "/index.html"
+         }
+    ]
+ }

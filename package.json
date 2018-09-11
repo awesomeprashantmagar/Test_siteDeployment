@@ -1,0 +1,21 @@
+{
+  "name": "google-map-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bitpod/site-webdeploy": "0.0.6",
+    "install": "^0.12.1",
+    "npm": "^6.4.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "site-webdeploy deploy --comment=Demo",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
